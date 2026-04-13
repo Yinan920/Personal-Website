@@ -1,0 +1,30 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'Personal Websites'
+theme = 'PaperMod'
+
+[params]
+    env = "production"
+    title = "Yinan He"
+    description = "MSIS Graduate Student | Northwestern University"
+    author = "Yinan He"
+    
+    # This displays your professional "Social Links" on the home page
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/yinan_he"
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://linkedin.com/in/yinan_he"
+
+[menu]
+    [[menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects/"
+        weight = 10
+    [[menu.main]]
+        identifier = "resume"
+        name = "Resume"
+        url = "/resume/"
+        weight = 20
