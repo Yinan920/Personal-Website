@@ -9,22 +9,38 @@ theme = 'PaperMod'
     description = "MSIS Graduate Student | Northwestern University"
     author = "Yinan He"
     
+    [params.profileMode]
+        enabled = true 
+        title = "Yinan He"
+        subtitle = """
+I am a Master of Science in Information Systems (MSIS) student at Northwestern University, specializing in **software development, data science and data engineering**. 
+
+With a background in Applied Mathematics, I bridge the gap between algorithmic modeling and scalable system architecture. 
+    """
+        displayFullLangName = true
+    
+
     # This displays your professional "Social Links" on the home page
     [[params.socialIcons]]
         name = "github"
-        url = "https://github.com/yinan_he"
+        url = "https://github.com/Yinan920/Personal-Website"
     [[params.socialIcons]]
         name = "linkedin"
-        url = "https://linkedin.com/in/yinan_he"
+        url = "https://www.linkedin.com/in/yinan-he-b561b9385/"
 
 [menu]
-    [[menu.main]]
-        identifier = "projects"
-        name = "Projects"
-        url = "/projects/"
-        weight = 10
-    [[menu.main]]
-        identifier = "resume"
-        name = "Resume"
-        url = "/resume/"
-        weight = 20
+  [[menu.main]]
+    identifier = "experience"
+    name = "Experience"
+    url = "/experience"
+    weight = 10
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects"
+    weight = 20
+  [[menu.main]]
+    identifier = "skills"
+    name = "Skills"
+    url = "/skills"
+    weight = 30

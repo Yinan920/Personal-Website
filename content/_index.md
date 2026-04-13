@@ -1,10 +1,9 @@
 ---
-title: "Professional Portfolio"
-description: "MSIS Candidate at Northwestern University"
-show_social_icons: true
+title: "Yinan He | Technical Portfolio"
+description: "MSIS Graduate Student at Northwestern University"
 ---
-# Welcome to my Technical Space
+# About Me
+I am a **Master of Science in Information Systems (MSIS)** student at **Northwestern University**, specializing in software development and data engineering. 
+With a foundational background in **Applied Mathematics**, I bridge the gap between complex algorithmic modeling and scalable system architecture. 
 
-I am an **Information Systems Graduate Student** at Northwestern University with a focus on **Full-Stack Development** and **Database Architecture**. 
-
-Through this site, I showcase my journey in building scalable web applications and designing complex data systems.
+Currently, I am focusing on **Full-Stack Development** and **Database Management**, while exploring **Data Science**.
